@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Manny Poppendieck",
+  "number": "786-312-4252"
+} 
+
+### 
+
+DELETE http://localhost:3001/api/persons/2
